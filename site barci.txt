@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excursii în Delta Dunării</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .excursie {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .excursie img {
+            max-width: 100%;
+            height: auto;
+        }
+        .excursie h2 {
+            margin-top: 0;
+        }
+        .excursie p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Excursii în Delta Dunării</h1>
+    </header>
+    <div class="container">
+        <div class="excursie">
+            <h2>Cursa de Mila</h2>
+            <img src="https://example.com/mila.jpg" alt="Imagine cursa de Mila">
+            <p>Durată: 4-5 ore</p>
+            <p>Preț: 200 lei</p>
+        </div>
+        <div class="excursie">
+            <h2>Cursa de Cotețe</h2>
+            <img src="https://example.com/cotete.jpg" alt="Imagine cursa de Cotețe">
+            <p>Durată: 1-2 ore</p>
+            <p>Preț: 120 lei</p>
+        </div>
+        <div class="excursie">
+            <h2>Cursa de Mila Letea Solina</h2>
+            <img src="https://example.com/mila-letea-solina.jpg" alt="Imagine cursa de Mila Letea Solina">
+            <p>Durată: 7-9 ore</p>
+            <p>Preț: 300 lei</p>
+        </div>
+    </div>
+</body>
+</html>
